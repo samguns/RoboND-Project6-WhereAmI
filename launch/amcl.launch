@@ -12,6 +12,9 @@
     <param name="odom_model_type" value="diff-corrected"/>
     <param name="base_frame_id" value="robot_footprint"/>
     <param name="global_frame_id" value="map"/>
+    <param name="min_particles" value="50" />
+    <param name="max_particles" value="300" />
+
   </node>
 
   <!-- Move base -->
